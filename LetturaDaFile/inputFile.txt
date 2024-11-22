@@ -1,0 +1,3 @@
+Mario;Rossi;18
+Ettore;Gialli;99
+Pietro;Bianco;13

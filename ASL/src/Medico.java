@@ -1,5 +1,4 @@
 import java.util.HashMap;
-
 public class Medico {
     private String nome;
     private String cognome;

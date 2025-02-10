@@ -1,8 +1,9 @@
 public class Calciatore extends Sportivo {
+
     private int nMaglia;
     
-    public Calciatore(int energia, int nMaglia){
-        super(energia);
+    public Calciatore(int energia, String cf, int nMaglia){
+        super(energia,cf);
         this.nMaglia = nMaglia;
     }
 
@@ -10,8 +11,6 @@ public class Calciatore extends Sportivo {
     @Override
     public void play(){
         super.energia-=2;
-        // this.energia-=2;
-        // decrementaEnergia(2);
     }
 
     

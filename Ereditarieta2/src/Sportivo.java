@@ -1,26 +1,17 @@
-public class Sportivo {
+public abstract class Sportivo {
+
     protected int energia;
+    private String cf;
 
-    public Sportivo(int energia){
+    public Sportivo(int energia, String cf){
         this.energia = energia;
+        this.cf = cf;
     }
 
-    public void play(){
-        this.energia--;
-    }
+    public abstract void play();
 
     public void decrementaEnergia(int e){
         this.energia-=e;
-    }
-
-    
-    public String play(String a){
-        return "Hello";
-    }
-
-    
-    public String play3(String a){
-        return "Hello";
     }
 
 }

@@ -5,8 +5,6 @@ import java.util.Scanner; // Import the Scanner class to read text files
 
 public class MainClass {
   public static void main(String[] args) {
-    ArrayList<Persona> persone = new ArrayList<>();
-    leggiFile("inputFile.txt", v);
     
   }
 
@@ -30,10 +28,10 @@ public class MainClass {
       //System.out.println(somma);
 
       myReader.close();
-    } catch (FileNotFoundException e) {
+    }catch (FileNotFoundException e) {
       System.out.println("An error occurred.");
       e.printStackTrace();
     }
 
-  }
+  //}
 }
